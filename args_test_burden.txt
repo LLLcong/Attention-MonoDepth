@@ -1,0 +1,17 @@
+--data_path /home/lc/dataset_burden/img_rgb_fire
+--gt_path /home/lc/dataset_burden/groundtruth
+--filenames_file ./train_test_inputs/burden_train_files.txt
+--dataset burden
+--n_bins 256
+--min_depth 1e-3
+--max_depth 4500
+
+--data_path_eval /home/lc/dataset_burden/img_rgb_fire
+--gt_path_eval /home/lc/dataset_burden/groundtruth
+--filenames_file_eval ./train_test_inputs/burden_test_files.txt
+--min_depth_eval 1e-3
+--max_depth_eval 4500
+
+--checkpoint_path ./checkpoints/AttentionDepth.pt
+--square_mask ./mask.png
+--square_crop

@@ -1,0 +1,28 @@
+--bs 16
+--dataset burden
+--distributed
+--num_gpus 4
+--lr 0.00005
+--wd 0.1
+--div_factor 3.3
+--final_div_factor 3.3
+--validate-every 1500
+--epochs 60
+--workers 11
+--name AttentionDepth
+--n_bins 256
+--w_chamfer 0.1
+--data_path /home/lc/dataset_burden/img_rgb_fire
+--gt_path /home/lc/dataset_burden/groundtruth
+--filenames_file ./train_test_inputs/burden_train_files.txt
+--min_depth 0.001
+--max_depth 4500
+--do_random_rotate
+--degree 1.0
+--data_path_eval /home/lc/dataset_burden/img_rgb_fire
+--gt_path_eval /home/lc/dataset_burden/groundtruth
+--filenames_file_eval ./train_test_inputs/burden_eval_files.txt
+--min_depth_eval 1e-3
+--max_depth_eval 4500
+--square_mask ./mask.png
+--square_crop
