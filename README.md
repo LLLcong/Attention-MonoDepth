@@ -17,6 +17,7 @@ pip install -r requirements.txt
 
 ## Datasets
 You can download our dataset from [here](https://pan.quark.cn/s/2f20eff3cea3), and then modify the data path in the config files to your dataset locations.
+Please contact c-liu22@mails.tsinghua.edu.cn for extraction password.
 
 ## Training
 First download the pretrained encoder backbone from [here](https://github.com/microsoft/Swin-Transformer), and then modify the pretrain path in the config files.
